@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [WEB Application name]">
+  <parameter name="Testsheetpath" value="C:\Users\Mrityunjoy\Desktop\AutomationCotroller.xlsx"/>
+  <test name="Web Applcation test name (failed)">
+    <classes>
+      <class name="commonExecutor.Executor">
+        <methods>
+          <include name="ScriptOutput"/>
+          <include name="initilizeDriver"/>
+          <include name="scriptExecutor"/>
+        </methods>
+      </class> <!-- commonExecutor.Executor -->
+    </classes>
+  </test> <!-- Web Applcation test name (failed) -->
+</suite> <!-- Failed suite [WEB Application name] -->

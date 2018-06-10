@@ -1,0 +1,13 @@
+<suite name ="WEB Application name">
+<parameter name ="Testsheetpath" value="C:\Users\Mrityunjoy\Desktop\AutomationCotroller.xlsx"/>
+<test name ="Web Applcation test name ">
+<classes>
+<class name ="commonExecutor.Executor">
+<methods>
+
+<include name ="scriptExecutor"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
