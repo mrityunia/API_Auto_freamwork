@@ -1,0 +1,26 @@
+
+usquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(…Ÿú‚H‹RBLOCKERZBUG
+wsquid:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(ñä…÷ûÿÿÿÿHŒRBLOCKERZBUG
+Ÿsquid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(âÀñÛûÿÿÿÿHRMINORZ
+CODE_SMELL
+j
+squid:S106;"9Replace this use of System.out or System.err by a logger.(«Ù¿ºüÿÿÿÿHRMAJORZ
+CODE_SMELL
+e
+squid:S106G"9Replace this use of System.out or System.err by a logger.(Æ¯´HRMAJORZ
+CODE_SMELL
+csquid:S1135?"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHRINFOZ
+CODE_SMELL
+csquid:S1135D"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH‘RINFOZ
+CODE_SMELL
+‡squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(âÀñÛûÿÿÿÿH’RCRITICALZ
+CODE_SMELL
+bsquid:S1172"0Remove this unused method parameter "SheetName".(âÀñÛûÿÿÿÿH“RMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÀñÛûÿÿÿÿH”RMINORZ
+CODE_SMELL
+squid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûìôH•RMINORZ
+CODE_SMELL
+csquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥ÅH–RMINORZ
+CODE_SMELL
+Xsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH—RMINORZVULNERABILITY

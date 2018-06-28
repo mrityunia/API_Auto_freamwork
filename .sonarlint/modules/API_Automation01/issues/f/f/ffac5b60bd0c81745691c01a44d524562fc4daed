@@ -1,0 +1,31 @@
+
+fsquid:S2696#"6Make the enclosing method "static" or remove this set.(İÏéH‚RCRITICALZ
+CODE_SMELL
+Xsquid:S1481)"+Remove this unused "report" local variable.(Àúó™H…RMINORZ
+CODE_SMELL
+ksquid:S2696 "6Make the enclosing method "static" or remove this set.(¸¨ˆûÿÿÿÿHÿRCRITICALZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÁÅşH‰RMINORZ
+CODE_SMELL
+ksquid:S1854">Remove this useless assignment to local variable "dataconfig".(Ö±É’H‡RMAJORZ
+CODE_SMELL
+ksquid:S2696$"6Make the enclosing method "static" or remove this set.(ÄÑ‹™ûÿÿÿÿHƒRCRITICALZ
+CODE_SMELL
+gsquid:S1854)":Remove this useless assignment to local variable "report".(Àúó™HˆRMAJORZ
+CODE_SMELL
+ksquid:S2696""6Make the enclosing method "static" or remove this set.(‘™÷õùÿÿÿÿHRCRITICALZ
+CODE_SMELL
+j
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Ÿìû‚øÿÿÿÿHşRMAJORZ
+CODE_SMELL
+fsquid:S2696!"6Make the enclosing method "static" or remove this set.(½Â˜ÙH€RCRITICALZ
+CODE_SMELL
+esquid:S2696%"6Make the enclosing method "static" or remove this set.(½‰¹XH„RCRITICALZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÑ®‹HŠRMINORZ
+CODE_SMELL
+squid:S001002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÊÉêüÿÿÿÿH†RMINORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘–ª§HıRMAJORZ
+CODE_SMELL

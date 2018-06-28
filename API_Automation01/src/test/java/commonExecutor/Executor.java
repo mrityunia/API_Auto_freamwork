@@ -9,8 +9,8 @@ public class Executor extends StartDriver {
 	
 	
 @Test
-public void scriptExecutor(String Testsheetpath) {
-	System.out.println("exeuotr path is "+Testsheetpath);
+public void scriptExecutor() {
+	System.out.println("exeuotr path is ");
 }
 
 }

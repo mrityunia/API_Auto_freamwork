@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-WEB_Application_name">
-              <span class="suite-name border-failed">WEB Application name</span>
+              <span class="suite-name border-passed">WEB Application name</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-WEB_Application_name" class="hide-methods failed suite-WEB_Application_name"> (hide)</a> <!-- hide-methods failed suite-WEB_Application_name -->
-                      <a href="#" panel-name="suite-WEB_Application_name" class="show-methods failed suite-WEB_Application_name"> (show)</a> <!-- show-methods failed suite-WEB_Application_name -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WEB_Application_name" class="hide-methods passed suite-WEB_Application_name"> (hide)</a> <!-- hide-methods passed suite-WEB_Application_name -->
+                      <a href="#" panel-name="suite-WEB_Application_name" class="show-methods passed suite-WEB_Application_name"> (show)</a> <!-- show-methods passed suite-WEB_Application_name -->
                     </span>
-                    <div class="method-list-content failed suite-WEB_Application_name">
+                    <div class="method-list-content passed suite-WEB_Application_name">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-WEB_Application_name" title="commonExecutor.Executor" hash-for-method="scriptExecutor">scriptExecutor</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-WEB_Application_name -->
+                    </div> <!-- method-list-content passed suite-WEB_Application_name -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-WEB_Application_name" class="panel WEB_Application_name">
-          <div class="suite-WEB_Application_name-class-failed">
+          <div class="suite-WEB_Application_name-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">commonExecutor.Executor</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,15 +128,10 @@
                   <a name="scriptExecutor">
                   </a> <!-- scriptExecutor -->
                   <span class="method-name">scriptExecutor</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Cannot inject @Test annotated Method [scriptExecutor] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-WEB_Application_name-class-failed -->
+          </div> <!-- suite-WEB_Application_name-class-passed -->
         </div> <!-- panel WEB_Application_name -->
         <div panel-name="test-xml-WEB_Application_name" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -198,12 +193,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scriptExecutor')
 data.setCell(0, 2, 'commonExecutor.Executor')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 6);
 window.suiteTableData['WEB_Application_name']= { tableData: data, tableDiv: 'times-div-WEB_Application_name'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 6 ms</span>
               <div id="times-div-WEB_Application_name">
               </div> <!-- times-div-WEB_Application_name -->
             </div> <!-- times-div -->
@@ -231,11 +226,17 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">commonExecutor.Executor</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initilizeDriver(C:\Users\Mrityunjoy\Desktop\AutomationCotroller.xlsx)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">scriptExecutor</span>
+                <span class="method-start">1045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">ScriptOutput</span>
+                <span class="method-start">1055 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
